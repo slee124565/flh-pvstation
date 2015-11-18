@@ -23,7 +23,7 @@
 define('DB_NAME', 'pvstation');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'pvstation');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'raspberry');
