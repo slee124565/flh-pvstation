@@ -1,0 +1,352 @@
+/*--------------------------------------------------------------
+6.0 Content
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+6.1 Main content
+--------------------------------------------------------------*/
+.site-main {
+	article.post {
+		background: #fff;
+		border-radius: 6px 6px 6px 6px;
+		margin-bottom: 100px;
+		border: 1px solid #E9E9E9;
+	}
+
+	article.page {
+		.entry-content,
+		.entry-footer  {
+			padding-left: 0;
+			padding-right: 0
+		}
+	}
+	.post-format-meta {
+		position: relative;
+		overflow: hidden;
+		display: block;
+
+		.thumb_audio {
+			position: absolute;
+			bottom: 50px;
+			left: 12%;
+			z-index: 1;
+			width: 76%;
+		}
+		.post-image {
+			display: block;
+		}
+
+		img {
+			width: 100%;
+			max-height: 500px;
+		}
+
+		.link-wrapper {
+			background: url(img/link_bg.png) no-repeat center -40px #fff;
+			display: block;
+			padding: 45px 0;
+			border-radius: 6px;
+			text-align: center;
+			position: relative;
+
+			a {
+				display: block;
+				font-size: 20px;
+				margin-top: 20px;
+				color: #c1c0c0;
+
+				&:hover {
+					color: @link-color;
+				}
+			}
+		}
+	}
+
+	.entry-title {
+		margin-bottom: 26px;
+		text-align: center;
+		padding: 45px 70px 0;
+
+		a {
+			color: #3c3c3c;
+		}
+	}
+	.entry-content {
+		padding: 0 70px 45px;
+
+		.carousel-indicators li.active {
+			margin-right: 5px;
+		}
+		.more-link {
+			.button;
+			.transition(all 0.5s ease-in);
+			width: 128px;
+			margin: 35px auto 0;
+			font-size: 14px;
+			padding: 20px 20px;
+			line-height: 1;
+
+		}
+
+		.post-meta {
+			margin-bottom: 26px;
+			padding: 0;
+			list-style: none;
+			text-align: center;
+
+			li {
+				color: #c1c0c0;
+				margin-right: 30px;
+				font-size: 14px;
+				display: inline-block;
+				text-transform: capitalize;
+
+				a {
+					color: #c1c0c0;
+
+					&:hover {
+						color: @link-color;
+					}
+				}
+
+				.date,
+				.comments-link,
+				&.fa-tags a {
+					font-family: 'Varela Round' , sans-serif;
+				}
+			}
+
+			.fa:before {
+				font-family: 'FontAwesome';
+				padding-right: 5px;
+				font-size: 18px;
+			}
+		}
+	}
+
+	.entry-footer {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+
+}
+
+/*--------------------------------------------------------------
+6.2 Post Format Quote
+--------------------------------------------------------------*/
+.format-quote .post-format-meta {
+	background-color: @primary-color;
+	border-radius: 6px;
+	img {
+		.opacity(0.3);
+		max-width: none;
+		position: absolute;
+		z-index: 0;
+		left: 0;
+		top: 0;
+	}
+	blockquote {
+		background: transparent;
+		border-color: transparent;
+		width: 100%;
+		color: #fff;
+		padding:100px;
+		font-size: 20px;
+		line-height: 36px;
+		position: relative;
+		z-index: 1;
+
+		a {
+			color: #fff;
+		}
+	}
+	cite {
+		margin-top: 10px;
+		font-weight: 400;
+		font-style: italic;
+		font-size: 24px;
+		line-height: 36px;
+		color: #fff;
+	}
+}
+
+/*--------------------------------------------------------------
+6.3 Audio
+--------------------------------------------------------------*/
+.site-content .mejs-audio {
+	width: 100%;
+	float: left;
+	clear: both;
+	position: relative;
+	background: #303337;
+	border-radius: 4px;
+	height: 50px !important;
+	opacity: 0.9;
+	box-shadow: inset 1px 1px 1px #515151;
+
+	.mejs-controls {
+		position: absolute;
+		list-style-type: none;
+		top: 11px;
+		width: 96%;
+		margin-left: 2.5%;
+		float: left;
+		background: #303337;
+	}
+}
+
+.home .site-content {
+	margin-top: 100px;
+}
+
+/*--------------------------------------------------------------
+6.4 Single
+--------------------------------------------------------------*/
+.single {
+	.site-content {
+		padding-top: 30px;
+		padding-bottom: 45px;
+	}
+
+	article.post {
+		margin-bottom: 0;
+	}
+
+	.entry-meta {
+
+	}
+
+	.tags-links {
+		margin-top: 35px;
+		padding-top: 35px;
+		border-top: 2px solid #e9e9e9;
+		display: block;
+		overflow: hidden;
+		color: #c1c0c0;
+		a {
+			color: #c1c0c0;
+			font-size: 16px;
+			margin-right: 10px;
+			margin-bottom: 10px;
+
+			&:hover {
+				color: @primary-color;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+6.5 Related Article
+--------------------------------------------------------------*/
+.related-article {
+	.content-box();
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		list-style: none;
+		margin-bottom: 30px;
+		padding-left: 0;
+		overflow: hidden;
+		height: 73px;
+		padding-right: 0;
+	}
+	h2 {
+		margin-bottom: 40px;
+	}
+	.related-post-title {
+		font-weight: 400px;
+		font-size: 16px;
+		color: #c1c0c0;
+
+		&:hover {
+			color: @link-color;
+		}
+	}
+	.date {
+		font-size: 14px;
+		font-weight: 600;
+		color: #636467 ;
+	}
+	.post-thumbnail {
+		border-radius: 4px;
+		width: 60px;
+		height: 60px;
+		display: block;
+		float: left;
+		background-color: @primary-color;
+		overflow: hidden;
+		position: relative;
+
+		img {
+			width: 60px;
+			height: 60px;
+			border-radius: 4px;
+		}
+
+		&:before {
+			.font-awesome();
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			font-size: 20px;
+			color: @light;
+		}
+	}
+	.related-post-content {
+		margin-left: 80px;
+	}
+
+	// Show Icon post format
+	.fa-format-:before {
+		content: "\f044";
+	}
+	.icon-post-format();
+}
+
+/*--------------------------------------------------------------
+6.6 Author Area
+--------------------------------------------------------------*/
+.post-author-area {
+	.content-box();
+	overflow: hidden;
+	.avatar {
+		float: left;
+	}
+	.info {
+		margin-left: 135px;
+	}
+	.display-name {
+
+	}
+	.author-desc p {
+		line-height: 26px;
+	}
+}
+
+
+/*--------------------------------------------------------------
+6.7 Contact Form 7
+--------------------------------------------------------------*/
+.wpcf7 {
+	input,
+	select,
+	textarea {
+		background: #ffffff;
+		border: 1px solid #dddddd;
+		width: 100%;
+		padding: 10px;
+		font-size: 15px;
+		-webkit-transition: all 0.3s ease 0s;
+		transition: all 0.3s ease 0s;
+		margin-bottom: 30px;
+	}
+	input[type="submit"] {
+		.button();
+		border: 0;
+		padding: 18px 18px;
+	}
+}
+

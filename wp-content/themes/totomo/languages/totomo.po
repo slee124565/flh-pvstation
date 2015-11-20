@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: inc/template-tags.php:52
+#: comments.php:8
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: comment.php:10
+#: inc/template-tags.php:191
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:348
+msgid "%1$s: %2$s"
+msgstr ""
+
+#. Text in function
+#: comments.php:18
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in echo
+#: comment.php:21
+#: inc/template-tags.php:204
+msgid "&nbsp;&nbsp;Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: comment.php:11
+#: inc/template-tags.php:192
+msgid "(Edit)"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:52
+#: comments.php:8
+msgid "1 Comment"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:348
+msgid "Archives"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:348
+msgid "Archives: %s"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:348
+msgid "Author: %s"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:348
+msgid "Category: %s"
+msgstr ""
+
+#. Text in echo
+#: comments.php:16
+msgid "Comment navigation"
+msgstr ""
+
+#. Text in function
+#: comments.php:8
+msgid "Comments"
+msgstr ""
+
+#. Text in echo
+#: comments.php:24
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:348
+msgid "Day: %s"
+msgstr ""
+
+#. Text in function
+#: content-page.php:25
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: comments.php:29
+msgid "Email*"
+msgstr ""
+
+#. Text in function
+#: comments.php:29
+msgid "Hey, so you decided to leave a comment! That\\'s great. Just fill in the required fields and hit submit. Note that your comment will need to be reviewed before its published."
+msgstr ""
+
+#. Text in echo
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#. Text in echo
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#. Text in function
+#: comments.php:29
+msgid "Leave a comment"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:348
+msgid "Month: %s"
+msgstr ""
+
+#. Text in function
+#: comments.php:29
+msgid "Name*"
+msgstr ""
+
+#. Text in function
+#: comments.php:19
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:52
+msgid "No Comments"
+msgstr ""
+
+#. Text in echo
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#. Text in echo
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. Text in function
+#: inc/extras.php:1
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: content-page.php:16
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: comments.php:29
+msgid "Post Comment"
+msgstr ""
+
+#. Text in echo
+#: inc/template-tags.php:26
+msgid "Post navigation"
+msgstr ""
+
+#. Text in function
+#: footer.php:23
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. Text in function
+#: content.php:28
+#: inc/template-tags.php:371
+#: inc/template-tags.php:273
+msgid "Read More"
+msgstr ""
+
+#. Text in function
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. Text in echo
+#: inc/template-tags.php:314
+msgid "Related Posts"
+msgstr ""
+
+#. Text in echo
+#: searchform.php:10
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: footer.php:23
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#. Text in echo
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:348
+msgid "Tag: %s"
+msgstr ""
+
+#. Text in function
+#: footer.php:24
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#. Text in echo
+#: header.php:28
+msgid "Toggle navigation"
+msgstr ""
+
+#. Text in function
+#: comments.php:29
+msgid "Url"
+msgstr ""
+
+#. Text in function
+#: comments.php:29
+msgid "Write your mesage here... "
+msgstr ""
+
+#. Text in function
+#: inc/template-tags.php:348
+msgid "Year: %s"
+msgstr ""
+
+#. Text in function
+#: footer.php:23
+msgid "http://wordpress.org/"
+msgstr ""

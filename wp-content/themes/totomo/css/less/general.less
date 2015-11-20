@@ -1,0 +1,236 @@
+/*--------------------------------------------------------------
+1.0 Typography
+--------------------------------------------------------------*/
+body {
+	background: #f2f2f2;
+	font: 300 16px/26px 'Varela Round' , sans-serif;
+	color: @text-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: @gray-darker;
+	font-family: 'Varela Round' , sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 0px;
+	margin-top: 0px;
+	line-height: 100%;
+}
+h1 {
+	font-size: 34px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 13px;
+}
+h6 {
+	font-size: 12px;
+}
+
+:focus,
+a:focus {
+	outline: 0;
+}
+a {
+	color: @link-color;
+	.transition( 0.3s ease );
+	transition: .4s ease 0;
+}
+a:hover, a:focus {
+    color: @link-color;
+   	text-decoration: none;
+}
+
+blockquote {
+	background: #f5f5f5;
+	border-left: 5px solid @link-color;
+	padding: 30px;
+
+	cite {
+		font-size: 75%;
+		font-style: italic;
+		display: block;
+		margin-top: 1em;
+	}
+}
+
+p {
+	margin-bottom: 2em;
+}
+table {
+	border-bottom: 1px solid @gray;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 14px;
+	line-height: 2;
+	margin: 0 0 20px;
+	width: 100%;
+}
+input,
+select,
+textarea {
+	border: 1px solid @gray;
+	padding: 10px;
+	max-width: 100%;
+
+	&.full-width {
+		width: 100%;
+	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*--------------------------------------------------------------
+2.0 Repeatable Patterns
+--------------------------------------------------------------*/
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+
+.alignnone {
+	margin: 0;
+}
+.aligncenter,
+div.aligncenter,
+.aligncenter img {
+	display: block;
+	margin: 1em auto;
+}
+.alignleft,
+.entry-thumbnail.thumbnail {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	margin-right: 1rem;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 10px;
+	margin-left: 1rem;
+}
+.aligncenter {
+	display: block;
+	clear: both;
+	margin: 0 auto;
+}
+
+.wp-caption,
+.wp-caption-text {
+    font-style: italic;
+    text-align: left;
+    max-width: 100%;
+}
+.gallery {
+	margin: 0 0 15px;
+	display:  block;
+	clear:    both;
+	overflow: hidden;
+	margin:   0 auto;
+
+	.gallery-item {
+		margin: 0 0 10px;
+	}
+	.gallery-icon img {
+		padding: 10px;
+	}
+	.gallery-caption {
+		margin: 5px 0 0;
+		font-size: 14px;
+		display: block;
+	}
+
+	.gallery-row {
+		display:  block;
+		clear:    both;
+		overflow: hidden;
+		margin:   0;
+	}
+	.gallery-item {
+		overflow:   hidden;
+		float:      left;
+		margin:     0;
+		padding:    0;
+		text-align: center;
+		list-style: none;
+		border:     none;
+		background: transparent;
+
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing:    border-box;
+		box-sizing:                border-box;
+	}
+}
+
+/* Gallery item sizes depending on the number of columns */
+.gallery-columns-0 .gallery-item  { width: 100%;   }
+.gallery-columns-1 .gallery-item  { width: 100%;   }
+.gallery-columns-2 .gallery-item  { width: 50%;    }
+.gallery-columns-3 .gallery-item  { width: 33.33%; }
+.gallery-columns-4 .gallery-item  { width: 25%;    }
+.gallery-columns-5 .gallery-item  { width: 20%;    }
+.gallery-columns-6 .gallery-item  { width: 16.66%; }
+.gallery-columns-7 .gallery-item  { width: 14.28%; }
+.gallery-columns-8 .gallery-item  { width: 12.5%;  }
+.gallery-columns-9 .gallery-item  { width: 11.11%; }
+
+.bypostauthor {
+	display: block;
+}
+.sticky {
+	display: block;
+}
+.wp-playlist-item {
+	.wp-playlist-caption,
+	.wp-playlist-item-length {
+		line-height: 2.5;
+	}
+}
+
+/*--------------------------------------------------------------
+3.0 Basic Structure
+--------------------------------------------------------------*/
+.entry-content,
+.entry-summary {
+	.wp-playlist {
+		padding-bottom:0px;
+	}
+}
+
+.main,
+.footer {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+.main {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+#wrapper {
+	position: relative;
+}

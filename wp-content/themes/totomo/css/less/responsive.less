@@ -1,0 +1,143 @@
+/*--------------------------------------------------------------
+9.0 Media Queries
+--------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+
+	.container {
+		max-width: 940px;
+	}
+}
+
+// Only show for tablets and desktops
+@media (min-width: 768px) {
+	.dropdown:hover > .dropdown-menu {
+		opacity: 1;
+		top: 100%;
+		visibility: visible;
+	}
+
+	// Multi-level dropdown menu
+	.dropdown .dropdown:hover > .dropdown-menu {
+		top: 0;
+		left: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.nav {
+		& > li > a {
+			line-height: 1.8;
+			height: auto;
+		}
+
+		.caret {
+			display: none;
+		}
+		.dropdown-menu {
+			display: none;
+			&:before {
+				display: none;
+			}
+
+			li {
+				background: transparent;
+			}
+		}
+
+		.open > .dropdown-menu {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+
+	.dropdown:hover > .dropdown-menu {
+		opacity: 1;
+		top: 100%;
+		visibility: visible;
+	}
+
+	// Multi-level dropdown menu
+	.dropdown .dropdown:hover > .dropdown-menu {
+		top: 0;
+		left: 100%;
+	}
+	#site-navigation {
+		.transition( 0.3s ease-in );
+		background-color: #343434;
+		border-radius: 3px;
+		margin: 25px 0 0;
+		width: 100%;
+		padding: 20px 20px 10px;
+		display: none;
+
+		.navbar-collapse {
+			border-top: 0;
+		}
+
+		&.collapse.in {
+			display: block;
+		}
+		.navbar-nav {
+			margin: 0;
+		}
+		ul {
+			overflow: hidden;
+		}
+
+		a {
+			margin-bottom: 10px;
+			padding: 10px 20px;
+			position: relative;
+			text-align: left;
+			background-color: #2b2b2b;
+		}
+	}
+
+	.site-main .entry-title,
+	.site-main .entry-content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.post-author-area,
+	.related-article,
+	.comment-respond,
+	.comments.content-box{
+		padding: 15px 20px;
+	}
+
+	.box-social-share {
+		clear: both;
+	}
+}
+
+@media (max-width: 640px) {
+	.header-search {
+		display: none;
+	}
+	.site-main .entry-content .post-meta li {
+		float: left;
+	}
+	.site-main .post-format-meta .link-wrapper a {
+		word-break: break-all;
+		font-size: 18px;
+	}
+	.format-quote .post-format-meta blockquote {
+		padding: 20px;
+	}
+	.navbar-collapse {
+		box-shadow: none;
+	}
+	.post-author-area {
+		text-align: center;
+		.avatar {
+			float: none;
+			margin-bottom: 10px;
+		}
+		.info {
+			margin-left: 0;
+		}
+	}
+}

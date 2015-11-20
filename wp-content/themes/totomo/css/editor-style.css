@@ -1,0 +1,14 @@
+/**
+ * Theme: Totomo
+ *
+ * The stylesheet for the WordPress visual post / page editor
+ *
+ * For now, simply loads our theme's stylesheets
+ *
+ * @package totomo
+ */
+
+/**
+ * PULL IN OUR THEME STYLESHEETS SO VISUAL EDITOR AND PREVIEWS LOOK RIGHT
+ */
+@import url( '../style.css' );
