@@ -44,7 +44,7 @@
                 order by date desc
                 limit 1";
     $t_ac_output_wattage = $wpdb->get_var($t_ac_output_wattage_sql);
-    if (! $t_ac_output_wattage) {
+    if (is_null($t_ac_output_wattage)) {
         $t_ac_output_wattage = 'N/A';
     }
     $t_dc_life_output_wattage_sql = "select value from pvi_regdata where 
