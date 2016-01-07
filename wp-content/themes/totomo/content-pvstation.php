@@ -20,10 +20,10 @@
                 order by date desc
                 limit 1";
     $t_ac_output_voltage = $wpdb->get_var($t_ac_output_voltage_sql);
-    if ($t_ac_output_voltage) {
-        $t_ac_output_voltage = $t_ac_output_voltage * 0.1;
-    } else {
+    if (is_null($t_ac_output_voltage)) {
         $t_ac_output_voltage = 'N/A';
+    } else {
+        $t_ac_output_voltage = $t_ac_output_voltage * 0.1;
     }
     $t_ac_output_current_sql = "select value from pvi_regdata where 
                 address = $INPUT_REGISTER_ADDRESS_CURRENT
@@ -32,10 +32,10 @@
                 order by date desc
                 limit 1";
     $t_ac_output_current = $wpdb->get_var($t_ac_output_current_sql);
-    if ($t_ac_output_current) {
-        $t_ac_output_current = $t_ac_output_current * 0.01;
-    } else {
+    if (is_null($t_ac_output_current)) {
         $t_ac_output_current = 'N/A';
+    } else {
+        $t_ac_output_current = $t_ac_output_current * 0.01;
     }
     $t_ac_output_wattage_sql = "select value from pvi_regdata where 
                 address = $INPUT_REGISTER_ADDRESS_WATTAGE
@@ -54,14 +54,14 @@
                 order by date desc
                 limit 1";
     $t_dc_life_output_wattage = $wpdb->get_var($t_dc_life_output_wattage_sql);
-    if ($t_dc_life_output_wattage) {
-        $t_dc_life_output_wattage = $t_dc_life_output_wattage * 0.01;
-        $t_dc_lift_carbon_low = $t_dc_life_output_wattage * 0.637;
-        $t_dc_life_profit = $t_dc_life_output_wattage * 6.8633;
-    } else {
+    if (is_null($t_dc_life_output_wattage)) {
         $t_dc_life_output_wattage = 'N/A';
         $t_dc_lift_carbon_low = 'N/A';
         $t_dc_life_profit = 'N/A';
+    } else {
+        $t_dc_life_output_wattage = $t_dc_life_output_wattage * 0.01;
+        $t_dc_lift_carbon_low = $t_dc_life_output_wattage * 0.637;
+        $t_dc_life_profit = $t_dc_life_output_wattage * 6.8633;
     }
     $t_energy_today_sql = "select value from pvi_regdata where 
                 address = $INPUT_REGISTER_ADDRESS_ENERGY_TODAY
@@ -70,14 +70,14 @@
                 order by date desc
                 limit 1";
     $t_energy_today = $wpdb->get_var($t_energy_today_sql);
-    if ($t_energy_today) {
-        $t_energy_today = $t_energy_today * 0.01;
-        $t_energy_today_carbon_low = $t_energy_today * 0.637;
-        $t_energy_today_profit = $t_energy_today * 6.8633;
-    } else {
+    if (is_null($t_energy_today)) {
         $t_energy_today = 'N/A';
         $t_energy_today_carbon_low = 'N/A';
         $t_energy_today_profit = 'N/A';
+    } else {
+        $t_energy_today = $t_energy_today * 0.01;
+        $t_energy_today_carbon_low = $t_energy_today * 0.637;
+        $t_energy_today_profit = $t_energy_today * 6.8633;
     }
     //var_dump($t_dc_life_output_wattage_sql);exit;
 ?>
