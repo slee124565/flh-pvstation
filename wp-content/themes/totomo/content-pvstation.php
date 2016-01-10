@@ -61,7 +61,7 @@
                         <tr><th class="text-center" colspan="3">環境條件</th></tr>
                         <tr><th>UV指數</th><td><?php echo $pvs->environment->uv_index; ?></td><th></th></tr>
                         <tr><th>環境溫度</th><td><?php echo $pvs->environment->temperature; ?></td><th>C</th></tr>
-                        <tr><th>能見度</th><td><?php echo $pvs->environment->visibility; ?></td><th>C</th></tr>
+                        <tr><th>能見度</th><td><?php echo $pvs->environment->visibility; ?></td><th></th></tr>
                     </table>
                 </div>
             </div>
