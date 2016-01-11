@@ -51,9 +51,9 @@
                 <div class="col-md-6">
                     <table class="table">
                         <tr ><th class="text-center" colspan="3">輸出</th></tr>
-                        <tr><th>電壓</th><td><?php echo $pvs->dc_output->H5->voltage; ?></td><th>V</th></tr>
-                        <tr><th>電流</th><td><?php echo $pvs->dc_output->H5->current; ?></td><th>A</th></tr>
-                        <tr><th>輸出功率</th><td><?php echo $pvs->dc_output->H5->wattage; ?></td><th>W</th></tr>
+                        <tr><th>電壓</th><td><?php echo $pvs->dc_output->{$pvi_name}->voltage; ?></td><th>V</th></tr>
+                        <tr><th>電流</th><td><?php echo $pvs->dc_output->{$pvi_name}->current; ?></td><th>A</th></tr>
+                        <tr><th>輸出功率</th><td><?php echo $pvs->dc_output->{$pvi_name}->wattage; ?></td><th>W</th></tr>
                     </table>
                 </div>
                 <div class="col-md-6">
@@ -61,7 +61,7 @@
                         <tr><th class="text-center" colspan="3">環境條件</th></tr>
                         <tr><th>UV指數</th><td><?php echo $pvs->environment->uv_index; ?></td><th></th></tr>
                         <tr><th>環境溫度</th><td><?php echo $pvs->environment->temperature; ?></td><th>C</th></tr>
-                        <tr><th>能見度</th><td><?php echo $pvs->environment->visibility; ?></td><th></th></tr>
+                        <tr><th>能見度</th><td><?php echo $pvs->environment->visibility; ?></td><th>Km</th></tr>
                     </table>
                 </div>
             </div>
