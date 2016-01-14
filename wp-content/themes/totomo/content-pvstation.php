@@ -66,6 +66,9 @@
                 </div>
             </div>
         </div>
+        <div class="well">
+            <?php amcharts_insert( 'energy_output_daily_trend' ); ?>
+        <div>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'totomo' ),
