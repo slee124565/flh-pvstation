@@ -29,7 +29,7 @@
         </div>
         <div class="well">
             <table class="table">
-                <caption>統計報告</caption>
+                <caption><strong>統計報告</strong></caption>
                 <thead>
                     <tr><th></th><th>今日</th><th>本月</th><th>總計</th></tr>
                 </thead>
