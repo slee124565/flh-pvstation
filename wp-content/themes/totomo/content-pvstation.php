@@ -24,6 +24,10 @@
 	<div class="entry-content">
 		<?php the_content(); ?>
         <div class="well">
+            <caption>Hourly Energy Output</caption>
+            <?php amcharts_insert( 'pvs_chart-1' ); ?>
+        </div>
+        <div class="well">
             <table class="table">
                 <caption>統計報告</caption>
                 <thead>
@@ -67,6 +71,7 @@
             </div>
         </div>
         <div class="well">
+            <caption>Daily Energy Output</caption>
             <?php amcharts_insert( 'energy_output_daily_trend' ); ?>
         <div>
 		<?php
