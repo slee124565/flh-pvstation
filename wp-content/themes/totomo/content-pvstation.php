@@ -24,25 +24,25 @@
 	<div class="entry-content">
 		<?php the_content(); ?>
         <div class="well">
-            <caption><strong>Hourly Energy Output</strong></caption>
+            <caption><strong><?php _e( 'Hourly Energy Output' ); ?></strong></caption>
             <?php amcharts_insert( 'pvs_chart-1' ); ?>
         </div>
         <div class="well">
             <table class="table">
-                <caption><strong>統計報告</strong></caption>
+                <caption><strong><?php _e( 'Statistic Report' ); ?></strong></caption>
                 <thead>
-                    <tr><th></th><th>今日</th><th>本月</th><th>總計</th></tr>
+                    <tr><th></th><th><?php _e( 'Today' ); ?></th><th><?php _e( 'This Month' ); ?></th><th><?php _e( 'Until Now' ); ?></th></tr>
                 </thead>
                 <tbody>
-                    <tr><th>總累計發電量(kWh)</th>
+                    <tr><th><?php _e( 'Energy Output(kWh)' ); ?>總累計發電量(kWh)</th>
                         <td><?php echo $pvs->pvs_static->today->total_eng_kwh; ?></td>
                         <td><?php echo $pvs->pvs_static->this_month->total_eng_kwh; ?></td>
                         <td><?php echo $pvs->pvs_static->until_now->total_eng_kwh; ?></td></tr>
-                    <tr><th>減碳量(kg)</th>
+                    <tr><th><?php _e( 'Carbon Saving (kg)' ); ?>減碳量(kg)</th>
                         <td><?php echo $pvs->pvs_static->today->total_carbon_save; ?></td>
                         <td><?php echo $pvs->pvs_static->this_month->total_carbon_save; ?></td>
                         <td><?php echo $pvs->pvs_static->until_now->total_carbon_save; ?></td></tr>
-                    <tr><th>收益(NTD)</th>
+                    <tr><th><?php _e( 'Profit (NTD)' ); ?>收益(NTD)</th>
                         <td><?php echo $pvs->pvs_static->today->total_income; ?></td>
                         <td><?php echo $pvs->pvs_static->this_month->total_income; ?></td>
                         <td><?php echo $pvs->pvs_static->until_now->total_income; ?></td></tr>
@@ -54,18 +54,18 @@
             <div class="row">
                 <div class="col-md-6">
                     <table class="table">
-                        <tr ><th class="text-center" colspan="3">輸出</th></tr>
-                        <tr><th>電壓</th><td><?php echo $pvs->dc_output->{$pvi_name}->voltage; ?></td><th>V</th></tr>
-                        <tr><th>電流</th><td><?php echo $pvs->dc_output->{$pvi_name}->current; ?></td><th>A</th></tr>
-                        <tr><th>輸出功率</th><td><?php echo $pvs->dc_output->{$pvi_name}->wattage; ?></td><th>W</th></tr>
+                        <tr ><th class="text-center" colspan="3"><?php _e( 'Energy Output' ); ?>輸出</th></tr>
+                        <tr><th><?php _e( 'Voltage' ); ?>電壓</th><td><?php echo $pvs->dc_output->{$pvi_name}->voltage; ?></td><th>V</th></tr>
+                        <tr><th><?php _e( 'Current' ); ?>電流</th><td><?php echo $pvs->dc_output->{$pvi_name}->current; ?></td><th>A</th></tr>
+                        <tr><th><?php _e( 'Power' ); ?>輸出功率</th><td><?php echo $pvs->dc_output->{$pvi_name}->wattage; ?></td><th>W</th></tr>
                     </table>
                 </div>
                 <div class="col-md-6">
                     <table class="table">
-                        <tr><th class="text-center" colspan="3">環境條件</th></tr>
-                        <tr><th>UV指數</th><td><?php echo $pvs->environment->uv_index; ?></td><th></th></tr>
-                        <tr><th>環境溫度</th><td><?php echo $pvs->environment->temperature; ?></td><th>C</th></tr>
-                        <tr><th>能見度</th><td><?php echo $pvs->environment->visibility; ?></td><th>Km</th></tr>
+                        <tr><th class="text-center" colspan="3"><?php _e( 'Environment' ); ?>環境條件</th></tr>
+                        <tr><th><?php _e( 'UV Index' ); ?>UV指數</th><td><?php echo $pvs->environment->uv_index; ?></td><th></th></tr>
+                        <tr><th><?php _e( 'Temperature' ); ?>環境溫度</th><td><?php echo $pvs->environment->temperature; ?></td><th>C</th></tr>
+                        <tr><th><?php _e( 'Visibility' ); ?>能見度</th><td><?php echo $pvs->environment->visibility; ?></td><th>Km</th></tr>
                     </table>
                 </div>
             </div>
