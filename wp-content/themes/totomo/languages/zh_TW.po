@@ -4,14 +4,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Totomo 1.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/totomo\n"
-"POT-Creation-Date: 2016-01-15 12:24+0800\n"
+"POT-Creation-Date: 2016-01-15 17:26+0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-01-15 16:41+0800\n"
+"PO-Revision-Date: 2016-01-15 17:30+0800\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8.6\n"
-"Last-Translator: \n"
+"Last-Translator: Lee Shiueh <lee.shiueh@gmail.com>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_TW\n"
 
@@ -117,11 +117,11 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: content-page.php:18 content-pvstation.php:79
+#: content-page.php:18 content-pvstation.php:81
 msgid "Pages:"
 msgstr ""
 
-#: content-page.php:25 content-pvstation.php:86
+#: content-page.php:25 content-pvstation.php:88
 msgid "Edit"
 msgstr ""
 
@@ -137,57 +137,61 @@ msgstr "統計報告"
 msgid "Today"
 msgstr "今日"
 
-#: content-pvstation.php:34
+#: content-pvstation.php:35
 msgid "This Month"
 msgstr "本月"
 
-#: content-pvstation.php:34
+#: content-pvstation.php:36
 msgid "Until Now"
 msgstr "總計"
 
-#: content-pvstation.php:37
+#: content-pvstation.php:39
 msgid "Energy Output(kWh)"
 msgstr "發電量(度)"
 
-#: content-pvstation.php:41
+#: content-pvstation.php:43
 msgid "Carbon Saving (kg)"
 msgstr "減碳量(公斤)"
 
-#: content-pvstation.php:45
+#: content-pvstation.php:47
 msgid "Profit (NTD)"
 msgstr "收益(台幣)"
 
-#: content-pvstation.php:57
-msgid "Energy Output"
-msgstr "發電量"
+#: content-pvstation.php:59
+msgid "Current Output"
+msgstr "目前輸出"
 
-#: content-pvstation.php:58
+#: content-pvstation.php:60
 msgid "Voltage"
 msgstr "電壓"
 
-#: content-pvstation.php:59
+#: content-pvstation.php:61
 msgid "Current"
 msgstr "電流"
 
-#: content-pvstation.php:60
+#: content-pvstation.php:62
 msgid "Power"
 msgstr "功率"
 
-#: content-pvstation.php:65
+#: content-pvstation.php:67
 msgid "Environment"
 msgstr "現場環境"
 
-#: content-pvstation.php:66
+#: content-pvstation.php:68
 msgid "UV Index"
 msgstr "紫外線指數"
 
-#: content-pvstation.php:67
+#: content-pvstation.php:69
 msgid "Temperature"
 msgstr "溫度"
 
-#: content-pvstation.php:68
+#: content-pvstation.php:70
 msgid "Visibility"
 msgstr "能見度"
+
+#: content-pvstation.php:76
+msgid "Daily Energy Output"
+msgstr "每日發電量"
 
 #: content.php:31 inc/template-tags.php:244 inc/template-tags.php:264
 msgid "Read More"
