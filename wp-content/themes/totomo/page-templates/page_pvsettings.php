@@ -2,7 +2,7 @@
 /**
  * Template Name: PVSettings
  *
- * This is the template for PVStation or PVInverter page
+ * This is the template for PVSettings or PVInverter page
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site will use a
  * different template.
@@ -18,7 +18,7 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'page' ); ?>
+				<?php get_template_part( 'content', 'pvsettings' ); ?>
 
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template
