@@ -1,0 +1,882 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Security by Contexture\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-20 10:55-0800\n"
+"PO-Revision-Date: 2012-04-20 10:56-0800\n"
+"Last-Translator: Matt VanAndel <matt@contextureintl.com>\n"
+"Language-Team: Contexture Media <opensource@contextureintl.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\pagesecurity\\trunk\n"
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:65
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:66
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:105
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:106
+msgid "Protected"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:73
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:113
+msgid "Protected (inherited)"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:74
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:114
+msgid "Inheriting protection"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:82
+msgid "Protected (inherited from term)"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:83
+msgid "Inheriting protection from term"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:139
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:19
+msgid "No content is attached to this group."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:155
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:59
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:182
+msgid "Edit"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:156
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:65
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:188
+msgid "Remove"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:157
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:376
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:71
+msgid "View"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:201
+msgid "You are not currently a member of any groups."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:204
+#, php-format
+msgid "This user has not been added to any custom groups. Select a group above or visit any <a href=\"%s\">group detail page</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:302
+msgid "No users have been added to this group."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:308
+msgid "MEMBERSHIP DETAILS"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:311
+msgid "User"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:320
+msgid "Expires"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:326
+msgid "End Date"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:350
+msgid "Cancel"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:351
+msgid "Update"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:374
+msgid "Membership"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:375
+msgid "Unenroll"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:459
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:135
+msgid "No groups have been added yet."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:468
+msgid "Click to remove group access."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:469
+msgid "remove"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:478
+msgid "Protection has been inherited from an ancestor. Click to view ancestor."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:479
+msgid "ancestor"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:495
+msgid "Protection has been inherited from a term. Click to view term."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:496
+msgid "term"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:508
+msgid "Add to group"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:527
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:88
+msgid "Add"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/app_components.php:559
+msgid "General Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/shortcode_components.php:21
+msgid "Groups attached to this page:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/shortcode_components.php:29
+msgid "No groups attached."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/shortcode_components.php:53
+msgid "Groups Required:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/shortcode_components.php:54
+msgid "To access this page, users must be a member of at least one group from each set of groups."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/shortcode_components.php:77
+msgid "No groups attached"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:32
+msgid "Title"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:44
+msgid "Type"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:60
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:183
+msgid "Edit this content."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:66
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:189
+msgid "Detach this group from the content."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:72
+msgid "View this content on the website."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:155
+msgid "Name"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:161
+msgid "Description"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table-packages.php:167
+msgid "Users"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table_components.php:154
+msgid "Parameter $id must be set to a unique record id or guid."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table_components.php:155
+msgid "Parameter $columns is not an array."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table_components.php:156
+msgid "Parameter $actions is not an array or empty value."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table_components.php:214
+msgid "<h3>Can't Render Table!</h3><p>Either your package could not be loaded or there is a problem with your columns array. See the demo package in CTX_Table for an example configuration.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table_components.php:227
+msgid "Bulk Actions"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/components/table_components.php:382
+msgid "There are no records to show... yet!"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-add_controller.php:3
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-delete_controller.php:4
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-edit_controller.php:8
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/groups-list_controller.php:5
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:6
+msgid "You do not have sufficient permissions to manage options for this site."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-delete_controller.php:18
+msgid "An error occurred. The group was not fully deleted."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-delete_controller.php:20
+msgid "group was deleted."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-delete_controller.php:20
+msgid "View all groups"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-edit_controller.php:18
+msgid "An error occurred. Group Details could not be updated."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-edit_controller.php:21
+msgid "Group details have been saved."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-edit_controller.php:21
+msgid "Return to group list"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-edit_controller.php:27
+#, php-format
+msgid "User &quot;%s&quot; does not exist."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-edit_controller.php:34
+msgid "User is already in this group."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-edit_controller.php:38
+msgid "An error occurred. User could not be added to the group."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-edit_controller.php:40
+#, php-format
+msgid "User &quot;%s&quot; has been added to the group."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-edit_controller.php:48
+msgid "An error occurred. User could not be removed from group."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/group-edit_controller.php:50
+#, php-format
+msgid "User &quot;%s&quot; was removed from the group."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/groups-list_controller.php:17
+msgid "Incorrect security token."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:34
+msgid "Custom pages were deactivated. You must select a valid page from each list."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:66
+msgid "Page Security settings saved."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:77
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:78
+msgid "-- Choose Access Denied Page --"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:82
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:98
+#, php-format
+msgid "No available pages were found. <a href=\"%s\">Add Page</a>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:88
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:104
+msgid "Edit Page"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:94
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/options_controller.php:110
+msgid "Add Page"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/security-tax_controller.php:10
+msgid "Restrict Access"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/security-tax_controller.php:11
+msgid "Protect Term"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/security-tax_controller.php:12
+msgid "Protect this term and any content associated with it."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/security-tax_controller.php:13
+msgid "Add group..."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/security-tax_controller.php:14
+msgid "Groups With Access"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:38
+msgid " Protect this page and its descendants"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:49
+msgid "Inheriting from an ancestor."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:51
+msgid "Edit Parent"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:58
+msgid "Inheriting from one or more terms."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:70
+msgid "Available Groups"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:70
+msgid "New Group"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:72
+msgid "Select"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:89
+msgid "Groups with Access"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:101
+#, php-format
+msgid "<p>This is currently an Access Denied page. You cannot restrict it.</p><p><a href=\"%s\">View Security Settings</a></p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/controllers/sidebar-security_controller.php:104
+msgid "<p>You need to publish before you can update security settings.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:21
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:69
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:113
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:163
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:209
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:275
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:317
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:358
+msgid "User is not authorized."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:38
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:91
+msgid "Group added to content"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:132
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:179
+msgid "Group removed from content"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:141
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:188
+msgid "Query failed or content not in group."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:220
+msgid "User not found"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:231
+msgid "User already in group"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:242
+msgid "Query failed"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:251
+msgid "User enrolled in group"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:288
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:407
+msgid "Query failed."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:295
+msgid "User membership updated to "
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:327
+msgid "User not found in group."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:335
+msgid "User removed from group."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:369
+msgid "Object type or ID was not defined."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:384
+msgid "Security enabled."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:396
+msgid "Security disabled."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:417
+msgid "Unrecognized request."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:435
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:436
+msgid "No users were selected."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:446
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:447
+msgid "No group was selected."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Ajax.php:469
+#, php-format
+msgid "%d users were enrolled."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:51
+msgid "The content is protected directly."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:51
+msgid "The content is inheriting protection from a parent."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:51
+msgid "The content is inheriting protection from one or more terms."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:52
+msgid "Official Page Security Support"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:53
+#, php-format
+msgid "<p>To restrict access to this content, find the \"Restrict Access\" sidebar and check the box next to \"Protect this page and its decendants\". This will reveal some additional options.</p><p>If a page is protected, but you don't have any groups assigned to it, only admins will be able to see or access the page. To give users access to the page, select a group from the \"Available Groups\" drop-down and click \"Add\". You may need to <a href=\"%s\">create a group</a>, if you haven't already.</p><p>To remove a group, either uncheck the \"Protect this page...\" box (all permissions will be removed), or find a group in the \"Allowed Groups\" list and click \"Remove\".</p><p>All changes are saved immediately. There is no need to click \"Update\" in order to save your security settings.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:54
+msgid "<p>The lock icons indicate which content is protected. Dark icons are shown when content is directly protected, while the lighter icons indicate that permissions are being inherited.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:55
+#, php-format
+msgid "<p>When you protect a term, such as a category or tag, you are also protecting every piece of content that uses the term. For heirarchal terms (like \"Categories\") any child terms are also protected, as well as any content attached to those terms.</p><p>To restrict access to this term (as well as its children and associated content), find the \"Restrict Access\" section and check the box next to \"Protect this term and any content associated with it\". This will reveal some additional options.</p><p>If a term is protected, but you don't have any groups assigned to it, only admins will be able to see or access the page. To give users access to the page, select a group from the \"Add group...\" drop-down and click \"Add\". You may need to <a href=\"%s\">create a group</a>, if you haven't already.</p><p>To remove restrictions, either uncheck the \"Protect this term...\" box (all permissions and groups will be removed), or select the \"Remove\" option for any specific group in the list.</p><p>All changes are saved immediately. There is no need to click \"Update\" in order to save your security settings.</p><p><em>Note: Term permissions are post-specific, and are not passed to descendant pages.</em></p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:58
+msgid "<p>This screen shows you all the details about the current group, and allows you to edit some of those details.</p><p>&bull; <strong>Group Details</strong> - Change a group's title or description.</p><p>&bull; <strong>Site Access</strong> - This option is visible if you have Site Protection enabled. Set to \"Allowed\" if you would like users in this group to be able to access your website. All content-specific restrictions still apply.</p><p>&bull; <strong>Group Members</strong> - A list of users currently attached to the group. You also add users to a group if you know their username (users can also be added to groups from their profile pages).</p><p>&bull; <strong>Associated Content</strong> - A list of all the content that this group is attached to.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:59
+msgid "<p>This screen allows you to delete the selected group. Once you click \"Confirm Deletion\", the group will be permanently deleted, and all users will be removed from the group.</p><p>Also note that if this is the only group attached to any \"restricted\" pages, those pages will not longer be accessible to anyone but administrators.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:71
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:79
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:87
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:95
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:104
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:112
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:120
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:128
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:139
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:148
+msgid "Page Security"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:88
+msgid "<p>To add a user to a group, check the users to add, and select a group from the \"Add to group...\" drop down. Click \"Add\" to save the changes.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:113
+msgid "<p>This screen shows a list of all the groups currently available. Groups are used to arbitrarily \"group\" users together for permissions purposes. Once you \"attach\" one or more groups to a piece of content, only users in one of those groups will be able to access it!</p><p>You can also view a complete list of a groups members and associated content by clicking on the groups name.</p><p>&bull; <strong>Registered Users</strong> - This is a system group that is automatically applied to all registered users. It can't be edited or deleted as it is managed by WordPress automatically.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:121
+msgid "<p>This screen allows you to add a new group. Simply enter a new, unique name for your group, and an optional description.</p><p>Once created, you will be able to add users to the group from either the Group or Users pages.</p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:129
+msgid "<p>This screen contains general settings for Page Security.</p><p><strong>For more information:</strong></p>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:173
+msgid "You cannot unprotect this page. It is protected by a parent or ancestor."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:174
+msgid "This will completely erase this content's security settings and make it accessible to the public. Continue?"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:175
+#, php-format
+msgid "Are you sure you want to remove group \"%s\" from this page?"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:176
+#, php-format
+msgid "Are you sure you want to remove this group from %s ?"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:177
+msgid "Remove this user from the group?"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:178
+msgid "You must specify an expiration year."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:179
+msgid "An error occurred: "
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:180
+msgid "You must select a group to add."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:181
+msgid "This adds protection at a site level. Until you select site options for each group, your users will be unable to access the website."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:182
+msgid "This will completely erase site-level security settings and make it accessible to the public. Continue?"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:199
+msgid "Group Management"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:199
+msgid "Groups"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:200
+msgid "Add a Group"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:200
+msgid "Add Group"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:201
+msgid "Edit Group"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:202
+msgid "Delete Group"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:232
+msgid "New group created"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:234
+msgid "Unable to create group. There was an unspecified system error."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_App.php:237
+msgid "Unable to create group. A group with that name already exists."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Security.php:535
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Security.php:617
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Security.php:623
+msgid "Go to home page"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Security.php:565
+#: C:\xampp\htdocs\pagesecurity\trunk/core/CTXPS_Security.php:612
+#, php-format
+msgid "Access Denied. Redirecting to %s"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/helpers.php:61
+msgid "Invalid html was passed to CTX_Helper:wrap"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/queries.php:123
+msgid "Registered Users"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/queries.php:124
+msgid "This group automatically applies to all authenticated users."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/queries.php:154
+#: C:\xampp\htdocs\pagesecurity\trunk/core/queries.php:185
+msgid "Missing Requirement:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/queries.php:155
+#, php-format
+msgid "Page Security requires PHP %1$s or higher. Your server is running PHP %2$s. Please contact your hosting service about enabling PHP %1$s support."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/queries.php:156
+#: C:\xampp\htdocs\pagesecurity\trunk/core/queries.php:189
+msgid "Return to plugin page"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/queries.php:186
+#, php-format
+msgid "This version of Page Security requires WordPress %1$s or higher. You are running WordPress %2$s. Please update your copy of WordPress or use an earlier version of Page Security (recommended: 1.5.1)."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/queries.php:632
+msgid "You do not have the appropriate group permissions to access this page. Please try <a href=\"%login_url%\">logging in</a> or contact an administrator for assistance."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/core/queries.php:633
+msgid "You do not have the appropriate group permissions to access this page. If you believe you <em>should</em> have access to this page, please contact an administrator for assistance."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-add.php:11
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:24
+msgid "Group Name <span class=\"description\">(required)</span>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-delete.php:8
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:8
+msgid "A group with that id does not exist."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-delete.php:10
+msgid "System groups cannot be deleted."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-delete.php:21
+msgid "Confirm Deletion"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:10
+msgid "System groups cannot be edited."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:15
+msgid "<h3>Group Details</h3>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:44
+msgid "Site Access:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:48
+msgid "This group has no access to the website."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:49
+msgid "None"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:51
+msgid "This group can access the site. All other security restrictions apply."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:52
+msgid "Allowed"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:54
+msgid "This group can access any and all site content. This overrides any other restrictions."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:55
+msgid "Unrestricted"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:57
+msgid "Site protection is enabled. You can choose what level of site access this group is allowed.<br/>Notice: Setting this to &quot;Unrestricted&quot; will give this group access to <em>all</em> site content."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:67
+msgid "<h3>Group Members</h3>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:72
+msgid "Add User"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:78
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:86
+msgid "Username"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:80
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:88
+msgid "Email"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/group-edit.php:97
+msgid "<h3>Associated Content</h3>"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/groups-list.php:22
+msgid "Add New"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/groups-list.php:46
+#, php-format
+msgid "You have not created any groups. Please <a href=\"%s\">add a group</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:14
+msgid "Access Denied Messages"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:15
+msgid "Use these settings to determine what your users will see when accessing content they are not allowed to view."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:21
+msgid "Use Custom Pages:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:25
+msgid "Use <strong>pages</strong> for default access denied screens"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:33
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:73
+msgid "Authenticated Users:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:38
+msgid "The \"access denied\" page to show users who <strong><em>are logged in</em></strong>."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:45
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:84
+msgid "Anonymous Users:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:50
+msgid "The \"access denied\" page to show users who are <strong><em>not</em></strong> logged in."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:57
+msgid "Protection Type:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:61
+msgid "Redirect"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:64
+msgid "Replace"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:66
+msgid "This dictates <strong>how</strong> users are shown the Access Denied page. They can either be redirected to a different page, or the content of the restricted page can be replaced."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:77
+msgid "The \"access denied\" message to show users who are logged in (HTML OK)."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:87
+msgid "Use the %login_url% token to dynamically generate a login URL."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:88
+msgid "The \"access denied\" message to show users who are <strong><em>not</em></strong> logged in (HTML OK)."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:95
+msgid "Force Login:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:99
+msgid "Send anonymous users to login screen"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:100
+msgid "If an anonymous user tries to access restricted content, send them to the login page.<br/>Notice: If enabled, the \"Anonymous Users\" setting will be ignored."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:107
+msgid "Global Security Features"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:108
+msgid "These options selectively enable/disable Page Security features."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:114
+msgid "Protect Entire Site:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:118
+msgid "Protect the entire website"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:119
+#, php-format
+msgid "Only registered users will be able to view the site (useful for intranet implementations).<br/>Notice: For maximum security, uncheck the \"Anyone can register\" option in <a href=\"%s\">Settings &gt; General</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:127
+msgid "Enable Menu Filtering:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:131
+msgid "Use permissions to filter menu items"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:132
+msgid "Remove restricted content from menus unless user is authenticated."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:140
+msgid "Enable RSS Filtering:"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:144
+msgid "Use permissions to filter RSS content"
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:145
+msgid "Remove restricted posts from RSS unless user is authenticated<br/> Warning: This will hide protected content from most RSS readers."
+msgstr ""
+
+#: C:\xampp\htdocs\pagesecurity\trunk/views/options.php:150
+msgid "Save Changes"
+msgstr ""
+

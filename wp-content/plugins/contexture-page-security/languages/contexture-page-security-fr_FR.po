@@ -1,0 +1,898 @@
+# Copyright (C) 2010 Page Security by Contexture
+# This file is distributed under the same license as the Page Security by Contexture package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Security by Contexture 1.3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-18 09:16+0100\n"
+"PO-Revision-Date: 2011-11-18 11:32+0100\n"
+"Last-Translator: SIMALIS <information@simalis.net>\n"
+"Language-Team: FRENCH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_c;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../components/app_components.php:65
+#: ../components/app_components.php:66
+#: ../components/app_components.php:105
+#: ../components/app_components.php:106
+msgid "Protected"
+msgstr "Protégé"
+
+#: ../components/app_components.php:73
+#: ../components/app_components.php:113
+msgid "Protected (inherited)"
+msgstr "Protégé (hérité)"
+
+#: ../components/app_components.php:74
+#: ../components/app_components.php:114
+msgid "Inheriting protection"
+msgstr "Protection hérité"
+
+#: ../components/app_components.php:82
+msgid "Protected (inherited from term)"
+msgstr "Protégé (hérité de durée)"
+
+#: ../components/app_components.php:83
+msgid "Inheriting protection from term"
+msgstr "Protection hérité du terme"
+
+#: ../components/app_components.php:139
+#: ../components/table-packages.php:19
+msgid "No content is attached to this group."
+msgstr "Aucun contenu n'est lié à ce groupe."
+
+#: ../components/app_components.php:155
+#: ../components/table-packages.php:59
+#: ../components/table-packages.php:182
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../components/app_components.php:156
+#: ../components/table-packages.php:65
+#: ../components/table-packages.php:188
+msgid "Remove"
+msgstr "Retirer"
+
+#: ../components/app_components.php:157
+#: ../components/app_components.php:350
+#: ../components/table-packages.php:71
+msgid "View"
+msgstr "Afficher"
+
+#: ../components/app_components.php:201
+msgid "You are not currently a member of any groups."
+msgstr "Vous êtes actuellement membre d'aucun groupe."
+
+#: ../components/app_components.php:204
+#, php-format
+msgid "This user has not been added to any custom groups. Select a group above or visit any <a href=\"%s\">group detail page</a>."
+msgstr "Cet utilisateur n'a été ajouté à aucun groupe d'utilisateurs personnalisés. Sélectionnez un groupe ci-dessus ou visitez la<a href=\"%s\">page de détails des groupes</ a>."
+
+#: ../components/app_components.php:276
+msgid "No users have been added to this group."
+msgstr "Aucun utilisateur n'a été ajouté à ce groupe."
+
+#: ../components/app_components.php:282
+msgid "MEMBERSHIP DETAILS"
+msgstr "DETAILS D'APPARTENANCE"
+
+#: ../components/app_components.php:285
+msgid "User"
+msgstr "Utilisateur"
+
+#: ../components/app_components.php:294
+msgid "Expires"
+msgstr "Expire"
+
+#: ../components/app_components.php:300
+msgid "End Date"
+msgstr "Date de fin"
+
+#: ../components/app_components.php:324
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../components/app_components.php:325
+msgid "Update"
+msgstr "Mise"
+
+#: ../components/app_components.php:348
+msgid "Membership"
+msgstr "Appartenance"
+
+#: ../components/app_components.php:349
+msgid "Unenroll"
+msgstr "Désinscrire"
+
+#: ../components/app_components.php:433
+#: ../components/table-packages.php:135
+msgid "No groups have been added yet."
+msgstr "Aucun groupe n'a encore été ajouté."
+
+#: ../components/app_components.php:440
+msgid "remove"
+msgstr "retirer"
+
+#: ../components/app_components.php:449
+msgid "ancestor"
+msgstr "ancêtre"
+
+#: ../components/app_components.php:466
+msgid "term"
+msgstr "durée"
+
+#: ../components/app_components.php:478
+msgid "Add to group"
+msgstr "Ajouter au groupe"
+
+#: ../components/app_components.php:497
+#: ../controllers/sidebar-security_controller.php:88
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../components/app_components.php:529
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: ../components/shortcode_components.php:21
+msgid "Groups attached to this page:"
+msgstr "Groupes liés à cette page :"
+
+#: ../components/shortcode_components.php:29
+msgid "No groups attached."
+msgstr "Aucun groupe lié."
+
+#: ../components/shortcode_components.php:53
+msgid "Groups Required:"
+msgstr "Groupes requis :"
+
+#: ../components/shortcode_components.php:54
+msgid "To access this page, users must be a member of at least one group from each set of groups."
+msgstr "Pour accéder à cette page, les utilisateurs doivent être membre d'au moins un groupe de chaque ensemble de groupes."
+
+#: ../components/shortcode_components.php:77
+msgid "No groups attached"
+msgstr "Aucun groupe attaché"
+
+#: ../components/table-packages.php:32
+msgid "Title"
+msgstr "Titre"
+
+#: ../components/table-packages.php:44
+msgid "Type"
+msgstr "Type"
+
+#: ../components/table-packages.php:60
+#: ../components/table-packages.php:183
+msgid "Edit this content."
+msgstr "Modifier ce contenu."
+
+#: ../components/table-packages.php:66
+#: ../components/table-packages.php:189
+msgid "Detach this group from the content."
+msgstr "Détachez ce groupe de ce contenu."
+
+#: ../components/table-packages.php:72
+msgid "View this content on the website."
+msgstr "Voir ce contenu sur le site."
+
+#: ../components/table-packages.php:155
+msgid "Name"
+msgstr "Nom"
+
+#: ../components/table-packages.php:161
+msgid "Description"
+msgstr "Description"
+
+#: ../components/table-packages.php:167
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: ../components/table_components.php:154
+msgid "Parameter $id must be set to a unique record id or guid."
+msgstr "Le paramètre $id doit être réglé à unique ou être l'id du groupe d'utilisateur ."
+
+#: ../components/table_components.php:155
+msgid "Parameter $columns is not an array."
+msgstr "Le paramètre $columns n'est pas un tableau."
+
+#: ../components/table_components.php:156
+msgid "Parameter $actions is not an array or empty value."
+msgstr "Le paramètre $actions n'est pas un tableau, ou est vide."
+
+#: ../components/table_components.php:214
+msgid "<h3>Can't Render Table!</h3><p>Either your package could not be loaded or there is a problem with your columns array. See the demo package in CTX_Table for an example configuration.</p>"
+msgstr "<h3>Impossible d'afficher le tableau !</h3><p>Soit votre paquet n'a pas pu être chargé soit il ya un problème avec les colonnes de votre tableau.Voyez le paquet de démo dans CTX_Table pour un exemple de configuration.</p>"
+
+#: ../components/table_components.php:227
+msgid "Bulk Actions"
+msgstr "Actions en vrac"
+
+#: ../components/table_components.php:382
+msgid "There are no records to show... yet!"
+msgstr "Il n'y a pas d'enregistrement à montrer... pour le moment !"
+
+#: ../controllers/group-add_controller.php:3
+#: ../controllers/group-delete_controller.php:4
+#: ../controllers/group-edit_controller.php:8
+#: ../controllers/groups-list_controller.php:5
+#: ../controllers/options_controller.php:6
+msgid "You do not have sufficient permissions to manage options for this site."
+msgstr "Vous n'avez pas les autorisations suffisantes pour gérer les options de ce site."
+
+#: ../controllers/group-delete_controller.php:18
+msgid "An error occurred. The group was not fully deleted."
+msgstr "Une erreur s'est produite. Le groupe n'a pas été totalement supprimé."
+
+#: ../controllers/group-delete_controller.php:20
+msgid "group was deleted."
+msgstr "le groupe a été supprimé."
+
+#: ../controllers/group-delete_controller.php:20
+msgid "View all groups"
+msgstr "Voir tous les groupes"
+
+#: ../controllers/group-edit_controller.php:18
+msgid "An error occurred. Group Details could not be updated."
+msgstr "Une erreur s'est produite. Les détails du groupe n'ont pas pu être mis à jour."
+
+#: ../controllers/group-edit_controller.php:21
+msgid "Group details have been saved."
+msgstr "Détails du groupe sauvegardé."
+
+#: ../controllers/group-edit_controller.php:21
+msgid "Return to group list"
+msgstr "Retour à la liste des groupes"
+
+#: ../controllers/group-edit_controller.php:27
+#, php-format
+msgid "User &quot;%s&quot; does not exist."
+msgstr "L'utilisateur &quot;%s&quot; n'existe pas. "
+
+#: ../controllers/group-edit_controller.php:34
+msgid "User is already in this group."
+msgstr "L'utilisateur est déjà présent dans ce groupe."
+
+#: ../controllers/group-edit_controller.php:38
+msgid "An error occurred. User could not be added to the group."
+msgstr "Une erreur s'est produite. L'utilisateur n'a pas pu être ajouté au groupe."
+
+#: ../controllers/group-edit_controller.php:40
+#, php-format
+msgid "User &quot;%s&quot; has been added to the group."
+msgstr "L'utilisateur &quot;%s&quot; a été ajouté au groupe."
+
+#: ../controllers/group-edit_controller.php:48
+msgid "An error occurred. User could not be removed from group."
+msgstr "Une erreur s'est produite. L'utilisateur n'a pas pu être retiré du groupe."
+
+#: ../controllers/group-edit_controller.php:50
+#, php-format
+msgid "User &quot;%s&quot; was removed from the group."
+msgstr "L'utilisateur &quot;%s&quot; a été retiré du groupe."
+
+#: ../controllers/options_controller.php:34
+msgid "Custom pages were deactivated. You must select a valid page from each list."
+msgstr "Les pages personnalisées ont été désactivés. Vous devez sélectionner une page valide pour chaque liste."
+
+#: ../controllers/options_controller.php:66
+msgid "Page Security settings saved."
+msgstr "Paramètres Page Security sauvegardé."
+
+#: ../controllers/options_controller.php:77
+#: ../controllers/options_controller.php:78
+msgid "-- Choose Access Denied Page --"
+msgstr "-- Choisir la page d'accès refusé  --"
+
+#: ../controllers/options_controller.php:82
+#: ../controllers/options_controller.php:98
+#, php-format
+msgid "No available pages were found. <a href=\"%s\">Add Page</a>"
+msgstr "Aucune page disponible trouvée. <a href=\"%s\">Ajouter une page</a>"
+
+#: ../controllers/options_controller.php:88
+#: ../controllers/options_controller.php:104
+msgid "Edit Page"
+msgstr "Modifier la page"
+
+#: ../controllers/options_controller.php:94
+#: ../controllers/options_controller.php:110
+msgid "Add Page"
+msgstr "Ajouter une page"
+
+#: ../controllers/security-tax_controller.php:7
+msgid "Restrict Access"
+msgstr "Restreindre l'accès"
+
+#: ../controllers/security-tax_controller.php:8
+msgid "Protect Term"
+msgstr "Protéger le terme"
+
+#: ../controllers/security-tax_controller.php:9
+msgid "Protect this term and any content associated with it."
+msgstr "Protéger ce terme et tout le contenu qui lui est associé."
+
+#: ../controllers/security-tax_controller.php:10
+msgid "Add group..."
+msgstr "Ajouter un groupe..."
+
+#: ../controllers/security-tax_controller.php:11
+msgid "Groups With Access"
+msgstr "Groupes ayant un accès"
+
+#: ../controllers/sidebar-security_controller.php:38
+msgid " Protect this page and its descendants"
+msgstr " Protéger cette page et ses sous pages"
+
+#: ../controllers/sidebar-security_controller.php:49
+msgid "Inheriting from an ancestor."
+msgstr "Hérité d'un ancêtre."
+
+#: ../controllers/sidebar-security_controller.php:51
+msgid "Edit Parent"
+msgstr "Modifier le parent"
+
+#: ../controllers/sidebar-security_controller.php:58
+msgid "Inheriting from one or more terms."
+msgstr "Hérité d'un ou plusieurs termes."
+
+#: ../controllers/sidebar-security_controller.php:70
+msgid "Available Groups"
+msgstr "Groupes disponibles"
+
+#: ../controllers/sidebar-security_controller.php:70
+msgid "New Group"
+msgstr "Nouveau groupe"
+
+#: ../controllers/sidebar-security_controller.php:72
+msgid "Select"
+msgstr "Sélectionner"
+
+#: ../controllers/sidebar-security_controller.php:89
+msgid "Groups with Access"
+msgstr "Groupes ayant un accès"
+
+#: ../controllers/sidebar-security_controller.php:101
+#, php-format
+msgid "<p>This is currently an Access Denied page. You cannot restrict it.</p><p><a href=\"%s\">View Security Settings</a></p>"
+msgstr "<p>C'est actuellement une page d'accès refusé. Vous ne pouvez pas la restreindre.</p><p><a href=\"%s\">Voir les paramètre de sécurité</a></p>"
+
+#: ../controllers/sidebar-security_controller.php:104
+msgid "<p>You need to publish before you can update security settings.</p>"
+msgstr "<p>Vous devez publier avant de pouvoir mettre à jour les paramètres de sécurité.</p>"
+
+#: ../core/CTXPS_Ajax.php:21
+#: ../core/CTXPS_Ajax.php:69
+#: ../core/CTXPS_Ajax.php:113
+#: ../core/CTXPS_Ajax.php:163
+#: ../core/CTXPS_Ajax.php:209
+#: ../core/CTXPS_Ajax.php:275
+#: ../core/CTXPS_Ajax.php:317
+#: ../core/CTXPS_Ajax.php:358
+msgid "User is not authorized."
+msgstr "L'utilisateur n'est pas autorisé."
+
+#: ../core/CTXPS_Ajax.php:38
+#: ../core/CTXPS_Ajax.php:91
+msgid "Group added to content"
+msgstr "Groupe ajouté au contenu"
+
+#: ../core/CTXPS_Ajax.php:132
+#: ../core/CTXPS_Ajax.php:179
+msgid "Group removed from content"
+msgstr "Groupe retiré du contenu"
+
+#: ../core/CTXPS_Ajax.php:141
+#: ../core/CTXPS_Ajax.php:188
+msgid "Query failed or content not in group."
+msgstr "Échec de la requête ou le contenu n'est pas dans le groupe."
+
+#: ../core/CTXPS_Ajax.php:220
+msgid "User not found"
+msgstr "Utilisateur non trouvé"
+
+#: ../core/CTXPS_Ajax.php:231
+msgid "User already in group"
+msgstr "L'utilisateur est déjà dans ce groupe."
+
+#: ../core/CTXPS_Ajax.php:242
+msgid "Query failed"
+msgstr "Echec de la requête"
+
+#: ../core/CTXPS_Ajax.php:251
+msgid "User enrolled in group"
+msgstr "Utilisateur inscrit au groupe"
+
+#: ../core/CTXPS_Ajax.php:288
+#: ../core/CTXPS_Ajax.php:407
+msgid "Query failed."
+msgstr "Echec de la requête."
+
+#: ../core/CTXPS_Ajax.php:295
+msgid "User membership updated to "
+msgstr "L'appartenance de l'utilisateur a été mis à jour pour"
+
+#: ../core/CTXPS_Ajax.php:327
+msgid "User not found in group."
+msgstr "Utilisateur introuvable dans le groupe"
+
+#: ../core/CTXPS_Ajax.php:335
+msgid "User removed from group."
+msgstr "Utilisateur retiré du groupe."
+
+#: ../core/CTXPS_Ajax.php:369
+msgid "Object type or ID was not defined."
+msgstr "Le type d'objet ou l'ID n'a pas été défini."
+
+#: ../core/CTXPS_Ajax.php:384
+msgid "Security enabled."
+msgstr "Securité activée."
+
+#: ../core/CTXPS_Ajax.php:396
+msgid "Security disabled."
+msgstr "Securité désactivé."
+
+#: ../core/CTXPS_Ajax.php:417
+msgid "Unrecognized request."
+msgstr "Demande non reconnu."
+
+#: ../core/CTXPS_Ajax.php:435
+#: ../core/CTXPS_Ajax.php:436
+msgid "No users were selected."
+msgstr "Aucun membre sélectionné."
+
+#: ../core/CTXPS_Ajax.php:446
+#: ../core/CTXPS_Ajax.php:447
+msgid "No group was selected."
+msgstr "Aucun groupe n'a été sélectionné."
+
+#: ../core/CTXPS_Ajax.php:469
+#, php-format
+msgid "%d users were enrolled."
+msgstr "%d utilisateurs étaient inscrits."
+
+#: ../core/CTXPS_App.php:53
+msgid "The content is protected directly."
+msgstr "Le contenu est protégé directement."
+
+#: ../core/CTXPS_App.php:53
+msgid "The content is inheriting protection from a parent."
+msgstr "Le contenu hérite de la proptection d'une page parent."
+
+#: ../core/CTXPS_App.php:53
+msgid "The content is inheriting protection from one or more terms."
+msgstr "La protection du contenu est hériter d'un ou plusieurs termes."
+
+#: ../core/CTXPS_App.php:55
+msgid "Official Page Security Support"
+msgstr "Support officiel de Page Security"
+
+#: ../core/CTXPS_App.php:57
+#, php-format
+msgid "<h4><strong>Page Security:</strong></h4><p>To restrict access to this content, find the \"Restrict Access\" sidebar and check the box next to \"Protect this page and its decendants\". This will reveal some additional options.</p><p>If a page is protected, but you don't have any groups assigned to it, only admins will be able to see or access the page. To give users access to the page, select a group from the \"Available Groups\" drop-down and click \"Add\". You may need to <a href=\"%s\">create a group</a>, if you haven't already.</p><p>To remove a group, either uncheck the \"Protect this page...\" box (all permissions will be removed), or find a group in the \"Allowed Groups\" list and click \"Remove\".</p><p>All changes are saved immediately. There is no need to click \"Update\" in order to save your security settings.</p>"
+msgstr "<h4><strong>Page Security:</strong></h4><p>Pour restreindre l'accès à ce contenu, allez au bloc \"Restrict Access\" de la barre latérale  et cochez \"Protéger cette page et ses sous pages\". Ceci fera apparaitre les options supplémentaires.</p><p>Si une page est protégée, mais que vous ne lui avez pas assigné un groupe, seul  les administrateurs seront capables de la voir ou d'y accéder. Pour donner l'accès à la page aux utilisateurs, sélectionnez un groupe dans  la liste déroulante \"Groupes disponibles\" et cliquez sur \"Ajouter\".Vous devrez peut-être <a href=\"%s\">créer un groupe</a>, si vous ne l'avez pas déjà fait.</p><p>Pour retirer un groupe vous pouvez soit décocher \"Protéger cette page et ses sous pages\" (toutes les permissions seront retirées), soit trouver un groupe dans la liste des \"Groupes ayant un accès\" et cliquez sur \"Retirer\".</p><p>Tous les changement sont immédiat. Il n'est pas nécessaire de cliquer  sur\"Mettre à jour\" afin de sauvegarder vos paramètres de sécurité.</p>"
+
+#: ../core/CTXPS_App.php:59
+msgid "<h4><strong>Page Security:</strong></h4><p>The lock icons indicate which content is protected. Dark icons are shown when content is directly protected, while the lighter icons indicate that permissions are being inherited.</p>"
+msgstr "<h4><strong>Page Security:</strong></h4><p>Les icônes de verrouillage indique quel contenu est protégé. Les icônes foncées sont affichés lorsque le contenu est directement protégée, tandis que les icônes claires indiquent que les autorisations sont héritées.</p>"
+
+#: ../core/CTXPS_App.php:61
+#, php-format
+msgid "<h4><strong>Page Security:</strong></h4><p>When you protect a term, such as a category or tag, you are also protecting every piece of content that uses the term. For heirarchal terms (like \"Categories\") any child terms are also protected, as well as any content attached to those terms.</p><p>To restrict access to this term (as well as its children and associated content), find the \"Restrict Access\" section and check the box next to \"Protect this term and any content associated with it\". This will reveal some additional options.</p><p>If a term is protected, but you don't have any groups assigned to it, only admins will be able to see or access the page. To give users access to the page, select a group from the \"Add group...\" drop-down and click \"Add\". You may need to <a href=\"%s\">create a group</a>, if you haven't already.</p><p>To remove restrictions, either uncheck the \"Protect this term...\" box (all permissions and groups will be removed), or select the \"Remove\" option for any specific group in the list.</p><p>All changes are saved immediately. There is no need to click \"Update\" in order to save your security settings.</p><p><em>Note: Term permissions are post-specific, and are not passed to descendant pages.</em></p>"
+msgstr "<h4><strong>Page Security:</strong></h4><p>Lorsque vous protégez un terme, pour  une catégorie ou une étiquette, vous êtes aussi protéger pour chaque élément de contenu qui utilise le terme. Pour les termes hiérarchiques (comme \"Catégories\") toutes les termes enfants sont également protégés, ainsi que tout contenu attaché à ces termes.</p><p>Pour restreindre l'accès à ce terme (ainsi qu'à ses enfants et le contenu associé), trouvez la section \"Restrict Access\" et cochez \"Protéger ce terme et tout contenu qui lui est associé\". Cela affichera quelques options supplémentaires.</p><p>Si un terme est protégé, mais que vous n'avez pas de groupe assignés, seuls  les administrateurs seront capables de voir ou d'accéder à la page. Pour donner aux utilisateurs l'accès à la page, sélectionnez un groupe dans la liste déroulante \"Sélectionner\" puis cliquez sur \"Ajouter\". Vous devrez peut-être <a href=\"%s\">créer un groupe</a>, si vous n'en avez pas déjà.</p><p>Pour supprimer les restrictions, soit décochez \"Protégez ce terme...\" (toutes les permissions et groupes seront retirés), soit sélectionnez l'option \"Retirer\" pour chaque groupe de la liste.</p><p>Tous les changement sont immédiat. Il n'est pas nécessaire de cliquer  sur\"Mettre à jour\" afin de sauvegarder vos paramètres de sécurité.</p><p><em>Remarque : les autorisations de termes sont spécifiques, et ne sont pas transmises aux sous pages.</em></p>"
+
+#: ../core/CTXPS_App.php:65
+msgid "<h4><strong>Page Security:</strong></h4><p>To add a user to a group, check the users to add, and select a group from the \"Add to group...\" drop down. Click \"Add\" to save the changes.</p>"
+msgstr "<h4><strong>Page Security:</strong></h4><p>Pour ajouter un utilisateur à un groupe, sélectionnez l'utilisateur à ajouter puis selectionnez un groupe avec le menu déroulant \"Ajouter au groupe...\". Cliquez sur  \"Ajouter\" pour sauvegarder les modifications.</p>"
+
+#: ../core/CTXPS_App.php:72
+#: ../core/CTXPS_App.php:77
+msgid "<p>This is a custom post type.</p>"
+msgstr "<p>Ceci est un custom post type.</p>"
+
+#: ../core/CTXPS_App.php:100
+msgid "<p>This screen shows a list of all the groups currently available. Groups are used to arbitrarily \"group\" users together for permissions purposes. Once you \"attach\" one or more groups to a piece of content, only users in one of those groups will be able to access it!</p><p>You can also view a complete list of a groups members and associated content by clicking on the groups name.</p><p>&bull; <strong>Registered Users</strong> - This is a system group that is automatically applied to all registered users. It can't be edited or deleted as it is managed by WordPress automatically.</p><p><strong>For more information:</strong></p>"
+msgstr "<p>Cet écran affiche une liste de tous les groupes qui sont actuellement disponibles. Les groupes sont indépandant des \"\rôles\" des utilisateurs. Une fois que vous \"attacher\" un ou plusieurs groupes à du contenu, seuls les utilisateurs dans ces groupes seront en mesure d'y accéder!</p><p>Vous pouvez également consulter une liste complète des membres des groupes et le contenu associé en cliquant sur le nom des groupes.</p><p>&bull; <strong>Utilisateurs enregistrés</strong> - Ceci est un groupe système qui est appliqué automatiquement à tous les utilisateurs enregistrés. Il ne peut pas être édité ou supprimé, car il est géré par WordPress automatiquement.</p><p><strong>Pour plus d'informations :</strong></p>"
+
+#: ../core/CTXPS_App.php:101
+msgid "<p>This screen allows you to add a new group. Simply enter a new, unique name for your group, and an optional description.</p><p>Once created, you will be able to add users to the group from either the Group or Users pages.</p><p><strong>For more information:</strong></p>"
+msgstr "<p>Cet écran vous permet d'ajouter un nouveau groupe. Il suffit de saisir un nouveau nom unique pour votre groupe, et une description facultative.</p><p>Une fois créée, vous serez en mesure d'ajouter des utilisateurs au groupe à partir soit du groupe soit de la page des utilisateurs.</p><p><strong>Pour plus d'informations :</strong></p>"
+
+#: ../core/CTXPS_App.php:102
+msgid "<p>This screen shows you all the details about the current group, and allows you to edit some of those details.</p><p>&bull; <strong>Group Details</strong> - Change a group's title or description.</p><p>&bull; <strong>Site Access</strong> - This option is visible if you have Site Protection enabled. Set to \"Allowed\" if you would like users in this group to be able to access your website. All content-specific restrictions still apply.</p><p>&bull; <strong>Group Members</strong> - A list of users currently attached to the group. You also add users to a group if you know their username (users can also be added to groups from their profile pages).</p><p>&bull; <strong>Associated Content</strong> - A list of all the content that this group is attached to.</p><p><strong>For more information:</strong></p>"
+msgstr "<p>Cet écran vous montre tous les détails du groupe actuel, et vous permet de modifier certains de ces détails.</p><p>&bull; <strong>Détails du groupes</strong> - Changer le titre d'un gourpe ou sa description.</p><p>&bull; <strong>Accès au site</strong> - cette option est visible si vous avez activé la Protection du Site. Mettez \"Admis\" si vous souhaitez que les utilisateurs de ce groupe soient en mesure d'accéder à votre site internet.Toutes les restrictions de contenu spécifiques continuent de s'appliquer.</p><p>&bull; <strong>Membres du groupe</strong> - Une liste des utilisateurs actuellement rattachés au groupe. Vous pouvez également ajouter des utilisateurs à un groupe, si vous connaissez leur nom d'utilisateur (les utilisateurs peuvent également être ajoutés aux groupes via leur page de profil).</p><p>&bull; <strong>Contenu associé</strong> - Une liste de tous les contenus auxquels ce groupe est attaché.</p><p><strong>Pour plus d'informations :</strong></p>"
+
+#: ../core/CTXPS_App.php:105
+msgid "<p>This screen allows you to delete the selected group. Once you click \"Confirm Deletion\", the group will be permanently deleted, and all users will be removed from the group.</p><p>Also note that if this is the only group attached to any \"restricted\" pages, those pages will not longer be accessible to anyone but administrators.</p><p><strong>For more information:</strong></p>"
+msgstr "<p>Cet écran vous permet de supprimer le groupe sélectionné. Une fois que vous cliquez sur \"Confirmer la suppression\", le groupe sera définitivement supprimé, et tous les utilisateurs seront retirés du groupe.</p><p>Notez également que si c'est le seul groupe attaché à une  page \"restreinte\", cette pages ne sera plus accessible sauf aux administrateurs</p><p><strong>Pour plus d'informations :</strong></p>"
+
+#: ../core/CTXPS_App.php:108
+msgid "<p>This screen contains general settings for Page Security.</p><p><strong>For more information:</strong></p>"
+msgstr "<p>Cet écran contient les paramètres généraux pour Page Security.</p><p><strong>Pour plus d'informations :</strong></p>"
+
+#: ../core/CTXPS_App.php:125
+msgid "You cannot unprotect this page. It is protected by a parent or ancestor."
+msgstr "Vous ne pouvez pas déprotéger cette page. Elle est protégée par une page parent, ou ancêtre."
+
+#: ../core/CTXPS_App.php:126
+msgid "This will completely erase this content's security settings and make it accessible to the public. Continue?"
+msgstr "Ceci effacera complètement les paramètres de sécurité du contenu et le rendra accessible au public. Voulez vous continuer ?"
+
+#: ../core/CTXPS_App.php:127
+#, php-format
+msgid "Are you sure you want to remove group \"%s\" from this page?"
+msgstr "Êtes vous sur de vouloir supprimer le groupe \"%s\" de cette page ?"
+
+#: ../core/CTXPS_App.php:128
+#, php-format
+msgid "Are you sure you want to remove this group from %s ?"
+msgstr "Êtes vous sur de vouloir supprimer ce groupe de %s ?"
+
+#: ../core/CTXPS_App.php:129
+msgid "Remove this user from the group?"
+msgstr "Supprimer cet utilisateur de ce groupe ?"
+
+#: ../core/CTXPS_App.php:130
+msgid "You must specify an expiration year."
+msgstr "Vous devez spécifier une année d'expiration."
+
+#: ../core/CTXPS_App.php:131
+msgid "An error occurred: "
+msgstr "Une erreur s'est produite :"
+
+#: ../core/CTXPS_App.php:132
+msgid "You must select a group to add."
+msgstr "Vous devez sélectionner un groupe à ajouter."
+
+#: ../core/CTXPS_App.php:133
+msgid "This adds protection at a site level. Until you select site options for each group, your users will be unable to access the website."
+msgstr "Cela ajoute un niveau de protection au site. Tant que vous n'affectez pas d'options du site à chaque groupe, les utilisateurs ne pourront pas accéder au site."
+
+#: ../core/CTXPS_App.php:134
+msgid "This will completely erase site-level security settings and make it accessible to the public. Continue?"
+msgstr "Ceci effacera complètement les paramètres de sécurité du site et le rendra accessible au public. Voulez vous continuer ?"
+
+#: ../core/CTXPS_App.php:151
+msgid "Group Management"
+msgstr "Gestion du groupe"
+
+#: ../core/CTXPS_App.php:151
+msgid "Groups"
+msgstr "Groupes"
+
+#: ../core/CTXPS_App.php:152
+msgid "Add a Group"
+msgstr "Ajouter un groupe"
+
+#: ../core/CTXPS_App.php:152
+msgid "Add Group"
+msgstr "Ajouter un groupe"
+
+#: ../core/CTXPS_App.php:153
+msgid "Edit Group"
+msgstr "Modifier le groupe"
+
+#: ../core/CTXPS_App.php:154
+msgid "Delete Group"
+msgstr "Supprimer le groupe"
+
+#: ../core/CTXPS_App.php:184
+msgid "New group created"
+msgstr "Nouveau groupe créé"
+
+#: ../core/CTXPS_App.php:186
+msgid "Unable to create group. There was an unspecified system error."
+msgstr "Impossible de créer le groupe. Une erreur système non spécifiée s'est produite."
+
+#: ../core/CTXPS_App.php:189
+msgid "Unable to create group. A group with that name already exists."
+msgstr "Impossible de créer le groupe. Un groupe portant ce nom existe déjà."
+
+#: ../core/CTXPS_Security.php:517
+#: ../core/CTXPS_Security.php:582
+#: ../core/CTXPS_Security.php:588
+msgid "Go to home page"
+msgstr "Aller à la page d'accueil"
+
+#: ../core/CTXPS_Security.php:539
+#: ../core/CTXPS_Security.php:577
+#, php-format
+msgid "Access Denied. Redirecting to %s"
+msgstr "Accès refusé. Redirection vers %s"
+
+#: ../core/helpers.php:61
+msgid "Invalid html was passed to CTX_Helper:wrap"
+msgstr "HTML invalide transmis à CTX_Helper:wrap"
+
+#: ../core/queries.php:123
+msgid "Registered Users"
+msgstr "Utilisateurs enregistrés"
+
+#: ../core/queries.php:124
+msgid "This group automatically applies to all authenticated users."
+msgstr "Ce groupe s'applique automatiquement à tous les utilisateurs authentifiés."
+
+#: ../core/queries.php:154
+#: ../core/queries.php:185
+msgid "Missing Requirement:"
+msgstr "Pré-requis manquant :"
+
+#: ../core/queries.php:155
+#, php-format
+msgid "Page Security requires PHP %1$s or higher. Your server is running PHP %2$s. Please contact your hosting service about enabling PHP %1$s support."
+msgstr "Page Security requiert PHP %1$s ou supérieur. Votre serveur fonctionne actuellement avec PHP %2$s. Contactez votre service d'hébergement pour l'activation du support de PHP %1$s."
+
+#: ../core/queries.php:156
+#: ../core/queries.php:189
+msgid "Return to plugin page"
+msgstr "Retour à la page du plugin"
+
+#: ../core/queries.php:186
+#, php-format
+msgid "This version of Page Security requires WordPress %1$s or higher. You are running WordPress %2$s. Please update your copy of WordPress or use an earlier version of Page Security (recommended: 1.5.1)."
+msgstr "Cette version de Page Security requiert WordPress %1$s ou supérieur. Vous utilisez WordPress %2$s. Mettez à jour votre version de wordpress ou utilisez une version antérieure de Page Security (recommandé: 1.5.1)."
+
+#: ../core/queries.php:610
+msgid "You do not have the appropriate group permissions to access this page. Please try <a href=\"%login_url%\">logging in</a> or contact an administrator for assistance."
+msgstr "Vous n'avez pas les permissions du groupe approprié pour accéder cette page. Essayez de <a href=\"%s\">vous connecter</a> ou contactez l'administrateur pour toute assistance."
+
+#: ../core/queries.php:611
+msgid "You do not have the appropriate group permissions to access this page. If you believe you <em>should</em> have access to this page, please contact an administrator for assistance."
+msgstr "Vous n'avez pas les permissions du groupe approprié pour accéder cette page. Si vous pensez <em>devoir</em> avoir accès à cette page, contactez l'administrateur pour toute assistance."
+
+#: ../views/group-add.php:11
+#: ../views/group-edit.php:24
+msgid "Group Name <span class=\"description\">(required)</span>"
+msgstr "Nom du groupe <span class=\"description\">(requis)</span>"
+
+#: ../views/group-delete.php:8
+#: ../views/group-edit.php:8
+msgid "A group with that id does not exist."
+msgstr "Un groupe avec cet identifiant n'existe pas."
+
+#: ../views/group-delete.php:10
+msgid "System groups cannot be deleted."
+msgstr "Les groupes ne peuvent pas être supprimés."
+
+#: ../views/group-delete.php:21
+msgid "Confirm Deletion"
+msgstr "Confirmer la suppression"
+
+#: ../views/group-edit.php:10
+msgid "System groups cannot be edited."
+msgstr "Les groupes ne peuvent pas être modifiés."
+
+#: ../views/group-edit.php:15
+msgid "<h3>Group Details</h3>"
+msgstr "<h3>Détails du goupe</h3>"
+
+#: ../views/group-edit.php:44
+msgid "Site Access:"
+msgstr "Accès au site :"
+
+#: ../views/group-edit.php:48
+msgid "This group has no access to the website."
+msgstr "Ce groupe n'aucun accès au site."
+
+#: ../views/group-edit.php:49
+msgid "None"
+msgstr "Aucun"
+
+#: ../views/group-edit.php:51
+msgid "This group can access the site. All other security restrictions apply."
+msgstr "Ce groupe peut accéder au site. Toutes les autres restrictions de sécurité s'appliquent."
+
+#: ../views/group-edit.php:52
+msgid "Allowed"
+msgstr "Autorisé"
+
+#: ../views/group-edit.php:54
+msgid "This group can access any and all site content. This overrides any other restrictions."
+msgstr "Ce groupe peut accéder à tous les contenus du site. Ceci remplace toutes les autres restrictions."
+
+#: ../views/group-edit.php:55
+msgid "Unrestricted"
+msgstr "Sans restriction"
+
+#: ../views/group-edit.php:57
+msgid "Site protection is enabled. You can choose what level of site access this group is allowed.<br/>Notice: Setting this to &quot;Unrestricted&quot; will give this group access to <em>all</em> site content."
+msgstr "La protection du site est activée. Vous pouvez choisir à quel niveau d'accès au site ce groupe est autorisé.<br/> Avis : Paramétrer ceci sur &quot;illimité&quot; donnera à ce groupe l'accès à <em>tous</em> les contenus du site."
+
+#: ../views/group-edit.php:67
+msgid "<h3>Group Members</h3>"
+msgstr "<h3>Membres du groupe</h3>"
+
+#: ../views/group-edit.php:72
+msgid "Add User"
+msgstr "Ajouter un utilisateur"
+
+#: ../views/group-edit.php:78
+#: ../views/group-edit.php:86
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: ../views/group-edit.php:80
+#: ../views/group-edit.php:88
+msgid "Email"
+msgstr "Email"
+
+#: ../views/group-edit.php:97
+msgid "<h3>Associated Content</h3>"
+msgstr "<h3>Contenu associé</h3>"
+
+#: ../views/groups-list.php:22
+msgid "Add New"
+msgstr "Ajouter"
+
+#: ../views/groups-list.php:46
+#, php-format
+msgid "You have not created any groups. Please <a href=\"%s\">add a group</a>."
+msgstr "Vous n'avez aucun groupe. <a href=\"%s\">Ajouter un groupe</a>."
+
+#: ../views/options.php:14
+msgid "Access Denied Messages"
+msgstr "Messages d'accès refusé"
+
+#: ../views/options.php:15
+msgid "Use these settings to determine what your users will see when accessing content they are not allowed to view."
+msgstr "Utilisez ces paramètres pour déterminer ce que vos utilisateurs pourront voir lors de l'accès au contenu auquel ils ne sont pas autorisés."
+
+#: ../views/options.php:21
+msgid "Use Custom Pages:"
+msgstr "Utilser des pages personnalisées :"
+
+#: ../views/options.php:25
+msgid "Use <strong>pages</strong> for default access denied screens"
+msgstr "Utiliser des <strong>pages</strong> pour les messages access denied screens"
+
+#: ../views/options.php:33
+#: ../views/options.php:73
+msgid "Authenticated Users:"
+msgstr "Utilisateurs authentifiés :"
+
+#: ../views/options.php:38
+msgid "The \"access denied\" page to show users who <strong><em>are logged in</em></strong>."
+msgstr "La page \"d'accès réfusé\" à afficher aux utilisateurs qui <strong><em>sont connectés</em></strong>."
+
+#: ../views/options.php:45
+#: ../views/options.php:84
+msgid "Anonymous Users:"
+msgstr "Utilisateurs anonymes :"
+
+#: ../views/options.php:50
+msgid "The \"access denied\" page to show users who are <strong><em>not</em></strong> logged in."
+msgstr "La page \"d'accès réfusé\" à afficher aux utilisateurs qui <strong><em>ne sont pas</em></strong> connectés."
+
+#: ../views/options.php:57
+msgid "Protection Type:"
+msgstr "Type de protection :"
+
+#: ../views/options.php:61
+msgid "Redirect"
+msgstr "Rediriger"
+
+#: ../views/options.php:64
+msgid "Replace"
+msgstr "Remplacer"
+
+#: ../views/options.php:66
+msgid "This dictates <strong>how</strong> users are shown the Access Denied page. They can either be redirected to a different page, or the content of the restricted page can be replaced."
+msgstr "Ceci dicte la <strong>manière</strong> dont les utilisateurs sont présentés à la page Accès refusé. Ils peuvent soit être redirigé vers une page différente, soit le contenu de la page restreinte peut être remplacé."
+
+#: ../views/options.php:77
+msgid "The \"access denied\" message to show users who are logged in (HTML OK)."
+msgstr "Le message \"d'accès réfusé\" à afficher aux utilisateurs qui sont connectés (HTML OK)."
+
+#: ../views/options.php:87
+msgid "Use the %login_url% token to dynamically generate a login URL."
+msgstr "Utilisez %login_url% pour générer dynamiquement une URL de connexion."
+
+#: ../views/options.php:88
+msgid "The \"access denied\" message to show users who are <strong><em>not</em></strong> logged in (HTML OK)."
+msgstr "Le message \"d'accès réfusé\" à afficher aux utilisateurs qui <strong><em>ne sont pas</em></strong> connectés (HTML OK)."
+
+#: ../views/options.php:95
+msgid "Force Login:"
+msgstr "Forcer la connexion :"
+
+#: ../views/options.php:99
+msgid "Send anonymous users to login screen"
+msgstr "Envoyer les utilisateurs anonymes à l'écran de connexion"
+
+#: ../views/options.php:100
+msgid "If an anonymous user tries to access restricted content, send them to the login page.<br/>Notice: If enabled, the \"Anonymous Users\" setting will be ignored."
+msgstr "Si un utilisateur anonyme essaie d'accéder à un contenu restreint, l'envoyer à la page de connexion.<br/>Avis : si activé, les paramètres des \"utilisateurs anonymes\" seront ignorés."
+
+#: ../views/options.php:107
+msgid "Global Security Features"
+msgstr "Fonctionnalités globales de sécurité"
+
+#: ../views/options.php:108
+msgid "These options selectively enable/disable Page Security features."
+msgstr "Ces options permettent indépendament d'activer / désactiver les fonctionnalités de Page Security."
+
+#: ../views/options.php:114
+msgid "Protect Entire Site:"
+msgstr "Protéger tout le site :"
+
+#: ../views/options.php:118
+msgid "Protect the entire website"
+msgstr "Protéger l'ensemble du site"
+
+#: ../views/options.php:119
+#, php-format
+msgid "Only registered users will be able to view the site (useful for intranet implementations).<br/>Notice: For maximum security, uncheck the \"Anyone can register\" option in <a href=\"%s\">Settings &gt; General</a>."
+msgstr "Seuls les utilisateurs enregistrés pourront visualiser le site (utile pour les implémentations intranet).<br/>Avis : Pour une sécurité maximale, décochez l'option \"Tout le monde peut s'enregistrer\" dans les <a href=\"%s\">réglages généraux</a>."
+
+#: ../views/options.php:127
+msgid "Enable Menu Filtering:"
+msgstr "Activer le filtrage du menu :"
+
+#: ../views/options.php:131
+msgid "Use permissions to filter menu items"
+msgstr "Utiliser les autorisations pour filtrer les éléments de menu"
+
+#: ../views/options.php:132
+msgid "Remove restricted content from menus unless user is authenticated."
+msgstr "Retire le contenu restreint des menus, sauf si l'utilisateur est authentifié."
+
+#: ../views/options.php:140
+msgid "Enable RSS Filtering:"
+msgstr "Activer le filtrage du RSS :"
+
+#: ../views/options.php:144
+msgid "Use permissions to filter RSS content"
+msgstr "Utiliser des autorisations pour filtrer le contenu RSS"
+
+#: ../views/options.php:145
+msgid "Remove restricted posts from RSS unless user is authenticated<br/> Warning: This will hide protected content from most RSS readers."
+msgstr "Retire les articles restreints sauf si l'utilisateur est authentifié<br />Attention : cela peut masquer le contenu protégé à la plupart des lecteurs RSS."
+
+#: ../views/options.php:150
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#~ msgid "Already in group"
+#~ msgstr "Déjà dans le groupe"
+
+#~ msgid "Query failed!"
+#~ msgstr "Echec de la requête !"
+
+#~ msgid ""
+#~ "This user has not been added to any static groups. Select a group above "
+#~ "or visit any <a href=\"users.php?page=ps_groups\">group detail page</a>.</"
+#~ "td>"
+#~ msgstr ""
+#~ "Cet utilisateur n'a été ajouté à aucun groupe statique. Sélectionnez un "
+#~ "groupe ci-dessus ou visiter la <a href=\"users.php?page=ps_groups\">page "
+#~ "de détail du groupe</a>.</td>"
+
+#~ msgid "Page Security by Contexture"
+#~ msgstr "Page Security by Contexture"
+
+#~ msgid ""
+#~ "http://www.contextureintl.com/open-source-projects/contexture-page-"
+#~ "security-for-wordpress/"
+#~ msgstr ""
+#~ "http://www.contextureintl.com/open-source-projects/contexture-page-"
+#~ "security-for-wordpress/"
+
+#~ msgid ""
+#~ "Allows admins to create user groups and restrict access to sections of "
+#~ "the site by group."
+#~ msgstr ""
+#~ "Permet aux administrateurs de créer des groupes d'utilisateurs et "
+#~ "restreindre l'accès aux sections du site par groupe."
+
+#~ msgid "Contexture Intl, Matt VanAndel, Jerrol Krause"
+#~ msgstr "Contexture Intl, Matt VanAndel, Jerrol Krause"
+
+#~ msgid "http://www.contextureintl.com"
+#~ msgstr "http://www.contextureintl.com"
