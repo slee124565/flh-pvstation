@@ -25,7 +25,7 @@
 		<?php the_content(); ?>
         <div class="well">
             <caption><strong><?php esc_html_e( 'Hourly Energy Output', 'totomo' ); ?></strong></caption>
-            <?php amcharts_insert( 'pvs_chart-3' ); ?>
+            <?php amcharts_insert( 'pvs_chart-5' ); ?>
         </div>
         <div class="well">
             <table class="table">
