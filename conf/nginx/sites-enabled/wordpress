@@ -10,7 +10,7 @@ server {
 	server_name _;
 	listen 80;
 
-	root /usr/share/wordpress;
+	root /usr/share/flh-pvstation;
 
 	index index.php;
 
