@@ -10,7 +10,7 @@ server {
 	server_name _;
 	listen 80;
 
-	root /usr/share/flh-pvstation;
+	root /usr/share/pvstation;
 
 	index index.php;
 
